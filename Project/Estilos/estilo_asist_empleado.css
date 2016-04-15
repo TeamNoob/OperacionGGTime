@@ -1,0 +1,157 @@
+/*CSS stylesheet -> Asistencia-alumno.html*/
+/*ID*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	border: solid;
+	margin-top: 5px;
+	border-width: medium;
+	height: 120px;
+	margin-right: 1%;
+	border-color: #e6e6fa;
+	background-color: #a020f0;
+	color: white;
+}
+#body{
+	background-color: #F2F2F2;
+}
+
+#imglogo{
+	float: left;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+#titulo{
+	text-align: center;
+	margin-top:40px;
+}
+
+#profile{
+	float:left;
+	border: solid;
+	border-width: thin;
+	height: 300px;
+	width: 190px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-color: #e6e6fa;
+	color:#708090;
+	font-size: 14px;
+}
+
+#imgempleado{
+	margin: 20px; 
+	width: 150px;
+	height: 100px;
+}
+
+#barra{
+	border:solid;
+	background-color: #00ffff;
+	border-width: thin;
+	margin-left: 210px;
+	margin-top: 5px;
+	margin-right: 1%;
+	border-color: #e6e6fa;
+	color:#708090;
+}
+#faltas{
+	float: left;
+	color:#708090;
+}
+
+#linkm{
+	text-align: center;
+}
+
+#asistencias{
+	margin-left: 430px;
+	margin-top: 10px;
+	margin-right: 1%;
+	color:#708090;
+}
+
+#tableasistencias{
+	border: solid;
+	border:thin;
+	border-color: #e6e6fa;
+	color:#708090;
+}
+
+#footer{
+	position: relative;
+	margin-top: 200px;
+	margin-right: 1%;
+	position: relative;
+	background-color: #a020f0;
+	color: white;
+}
+
+#Copyright{
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+	margin-left: 100px;
+}
+
+#Derechos{
+	font-style: italic;
+}
+
+/*Class*/
+
+.fila{
+	/*border: solid;*/
+}
+.celda{
+	border: solid;
+	border-width: thin;
+	width: 200px;
+	text-align: center;
+	height: 25px;
+	border-color: #e6e6fa;
+	color:#708090;
+	background-color: #f0ffff;
+}
+.celdam{
+	border: solid;
+	border-width: medium;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-weight: bolder;
+	border-color: #e6e6fa;
+	color:#708090;
+	background-color: #00fa9a;
+}
+.linkmain{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.linkmain:hover{
+	font-weight: normal;
+	font-style: italic;
+}
+.listmain{
+	font-weight: bold;
+	float: left;
+	color:#708090;
+}
+.listg{
+	padding-top: 5px;
+}
+/*
+colores:
+header y footer: borde(#e6e6fa);
+#a020f0
+t1:#00ffff;
+t2:#f0ffff;
+t3:#00fa9a;
+texto:#708090;
+*/

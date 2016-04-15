@@ -1,0 +1,131 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+p{
+  font-size:14px;
+}
+
+#Body{
+  background-color:#F2F2F2;
+}
+
+#Header{
+  margin:10px;
+  background-color:#A020F0;
+  color:white;
+  text-align:center;
+  width:98%;
+  border:solid;
+  border-color:#E6E6FA;
+  border-width:5px;
+}
+
+#Header img:hover{
+  opacity:0.5;
+}
+
+#Logo{
+  margin:5px;
+  width:70px;
+  height:70px;
+  float:left;
+  border-radius:10px;
+}
+
+#T1{
+  font-size:18px;
+  margin:10px;
+  background-color:#00FFFF;
+  color:#7B68EE;
+  height:300px;
+  width:21%;
+  position:relative;
+  float:left;
+  text-align:center;
+  border:solid;
+  border-color:#E6E6FA;
+  border-width:5px;
+}
+
+#Tsub{
+  font-size:24px;
+}
+
+#T2{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:11px;
+  margin-right:11px;
+  background-color:#F0FFFF;
+  color:#708090;
+  height:300px;
+  width:48%;
+  position:relative;
+  float:left;
+  text-align:center;
+  border:solid;
+  border-color:#E6E6FA;
+  border-width:5px;
+}
+
+#T3{
+  margin:10px;
+  background-color:#00FA9A;
+  height:300px;
+  width:24%;
+  position:relative;
+  float:left;
+  text-align:center;
+  border:solid;
+  border-color:#E6E6FA;
+  border-width:5px;
+}
+
+#Empleados{
+  list-style:none;
+  color:#7B68EE;
+}
+
+#Asistencias{
+  list-style:none;
+  color:#7B68EE;
+}
+
+#Empleados a{
+  text-decoration:none;
+  font-size:14px;
+  color:#7B68EE;
+}
+
+#Empleados a:hover{
+  font-style:italic;
+  text-decoration:none;
+  font-size:14px;
+  color:#7B68EE;
+}
+
+#Asistencias a{
+  text-decoration:none;
+  font-size:14px;
+  color:#7B68EE;
+}
+
+#Asistencias a:hover{
+  font-style:italic;
+  text-decoration:none;
+  font-size:14px;
+  color:#7B68EE;
+}
+
+#Footer{
+  margin:10px;
+  background-color:#A020F0;
+  color:white;
+  width:98%;
+  margin-top:350px;
+  text-align:center;
+  border:solid;
+  border-color:#E6E6FA;
+  border-width:5px;
+}
+
